@@ -4,21 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Launch Page Tutorial</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!--Theme-->
+    <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
+    <!--Styles-->
+    <link rel="stylesheet" href="styles.css">
+    <!--Favicon-->
+    <link rel="icon" href="https://images.emojiterra.com/google/android-10/512px/1f680.png">
 </head>
 <body>
     <!-- NAVBAR -->
-
-
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img src="https://images.emojiterra.com/google/android-10/512px/1f680.png" height="20"> Launch Page</a>
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Features</a>
+            <a class="nav-item nav-link" href="#">Pricing</a>
+        </div>
+    </nav>
     <!-- HERO -->
-
-    <h1>Launch Page</h1>
-
+    <div class="jumbotron text-center hero-background-img">
+        <h1>Launch Page</h1>
+        <p class="lead">A Fantastic Product!</p>
+        <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
     <!-- BENEFITS -->
-
-
+    <div class="container mb-5 mt-5 pb-5 pt-5">
+        <div class="row">
+            <div class="col-lg-4">
+                <h3>Safe</h3>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio nulla placeat ipsam. Cumque, suscipit voluptates quo, deserunt ad nisi animi repellendus et placeat inventore vero sint! Perferendis aspernatur consequuntur commodi!</p>
+            </div>
+            <div class="col-lg-4">
+                <h3>Healthy</h3>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium blanditiis nobis doloremque nostrum illum placeat autem neque ab laudantium incidunt saepe iusto ut culpa quasi minima, quisquam iste quibusdam libero!</p>
+            </div>
+            <div class="col-lg-4">
+                <h3>Fun</h3>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit magni quidem libero soluta fuga ad nam fugit. Rem architecto, praesentium delectus impedit, repellendus voluptatum perferendis labore maiores, soluta rerum eaque.</p>
+            </div>
+        </div>
+    </div>
+    <!--Benefits+-->
+    <div class="row m-5">
+        <div class="col-lg-6 offset-lg-3">
+          <img src="images/kidsHavingFun.jpg" class="img-fluid rounded">
+        </div>
+    </div>
+    <!--Video-->
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=dQw4w9WgXcQ" allowfullscreen></iframe>
+    </div>
     <!-- CALL TO ACTION -->
-
+    <div class="jumbotron text-center mb-0">
+        <p class="lead mb-4">Sign Up for More Infomation</p>
+        <div class="d-flex justify-content-center">
+            <form action="#" class='form-inline'>
+                <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Email"/>
+                <button type="submit" class="btn btn-primary mb-2">Submit</button>
+            </form>
+        </div>
+      </div>
 
     <!-- FOOTER -->
+    <div class="bg-secondary p-5 text-white bg-light">
+        &copy; 2020 Launch Page Inc
+    </div>
 </body>
 </html>
